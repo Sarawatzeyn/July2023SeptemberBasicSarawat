@@ -1,0 +1,10 @@
+package com.FacebookTest;
+
+import org.testng.annotations.Test;
+
+public class FacebookTest1 {
+@Test
+public void testOne() {
+	System.out.println("hello testNg");
+}
+}

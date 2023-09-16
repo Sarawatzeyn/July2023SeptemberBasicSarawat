@@ -1,0 +1,10 @@
+package com.FacebookTest;
+
+public class facebooktest {
+	Webdriver driver;
+@test 
+
+public void() {
+	System.out.println('hello test NG');
+}
+}

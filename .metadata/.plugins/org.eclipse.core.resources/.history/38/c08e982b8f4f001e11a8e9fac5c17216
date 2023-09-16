@@ -1,0 +1,29 @@
+step 1
+how to create maven project
+create a Maven project--file--new-->mavenproject--
+artifact name group id--click finish
+
+how to update java version
+ans-<properties>
+		<maven.compiler.source>20</maven.compiler.source>
+		<maven.compiler.target>20</maven.compiler.target>
+	</properties>
+
+	find out what java version you have
+	-open program files from pc and make sure do not put
+	 higher version, you can use lower version.
+	 then do maven update
+	 
+	 how to add dependencies
+	 add tag: from maven rep
+	 <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.12.1</version>
+		</dependency>
+	 -
+	 how to find: go to maven repo search selenium -java
+	 get WebDriverManager- bonigarcia 5.5.3
+	 get the latest version\
+	 search Testng and get latest version
+	 do a maven project

@@ -1,0 +1,27 @@
+package com.FacebookTest;
+
+import org.openqa.selenium.WebDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class facebooktest {
+	
+	WebDriver driver;
+@test 
+
+
+public void() {
+	System.out.println("hello test NG");
+}
+
+@Test
+public void openChromeBrowser() {
+	WebDriverManager.chromedriver().setup();
+	driver = new chromeDriver();
+	driver.get("https:www.facebook.com/");
+}
+public void openEdgeBrowser() {
+	WebDriverManager.edgedriver().setup();
+	driver = new EdgeDriver;
+}
+}
